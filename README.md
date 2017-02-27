@@ -4,6 +4,10 @@
 
     go get -u github.com/fogleman/ease
 
+### Documentation
+
+[https://godoc.org/github.com/fogleman/ease](https://godoc.org/github.com/fogleman/ease)
+
 ### Usage
 
 All easing functions take a `float64` and return a `float64`. The input should be between 0 and 1, inclusive.
