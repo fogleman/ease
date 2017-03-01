@@ -231,3 +231,27 @@ func InOutBounce(t float64) float64 {
 		return OutBounce(2*t-1)*0.5 + 0.5
 	}
 }
+
+func InSquare(t float64) float64 {
+	if t < 1 {
+		return 0
+	} else {
+		return 1
+	}
+}
+
+func OutSquare(t float64) float64 {
+	if t > 0 {
+		return 1
+	} else {
+		return 0
+	}
+}
+
+func InOutSquare(t float64) float64 {
+	if t < 0.5 {
+		return 0
+	} else {
+		return 1
+	}
+}
